@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>搜索</title>
+    <link href="./css/HTML_001_Search_normalize.css" rel="stylesheet">
+    <link href="./css/HTML_001_Search_style.css" rel="stylesheet">
+    <link href="./icons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="./js/HTML_001_Search.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="search">
+    <!-- 百度搜索 -->
+    <div class="search" draggable="true" id="baidu-search">
+        <form action="https://www.baidu.com/s" class="search_form" target="_blank">
+            <div>
+                <a href="#baidu-search">
+                    <img alt="百度搜索" class="icons" src="./images/baidu_search.png">
+                </a>
+            </div>
+            <div class="forms">
+                <label>关键词：</label>
+                <label>
+                    <input class="text" name="wd" placeholder="百度搜索关键词" required size="30" type="text">
+                </label>
+                <input class="submit" type="submit" value="去百度搜索">
+            </div>
+        </form>
+    </div>
+
+
+    <!-- 百度百科 -->
+    <div class="search" draggable="true" id="baidu-wiki">
+        <form action="https://baike.baidu.com/search" class="search_form" target="_blank">
+            <div>
+                <a href="#baidu-wiki">
+                    <img alt="百度百科" class="icons" src="./images/baidu_wiki.png">
+                </a>
+            </div>
+            <div class="forms">
+                <label class="base_word">关键词：</label>
+                <label>
+                    <input class="text" name="word" placeholder="百度百科词条搜索关键词" required size="30" type="text">
+                </label>
+                <input class="submit" type="submit" value="去百度百科搜索">
+            </div>
+        </form>
+    </div>
+
+
+    <!-- 必应搜索 -->
+    <div class="search" draggable="true" id="bing-search">
+        <form action="https://cn.bing.com/search" class="search_form" target="_blank">
+            <div>
+                <a href="#bing-search">
+                    <img alt="必应搜索" class="icons" src="./images/bing_search.png">
+                </a>
+            </div>
+            <div class="forms">
+                <label class="base_word">关键词：</label>
+                <label>
+                    <input class="text" name="q" placeholder="必应搜索关键词" required size="30" type="text">
+                </label>
+                <input class="submit" type="submit" value="去必应搜索">
+            </div>
+        </form>
+    </div>
+
+
+    <!-- 哔哩哔哩搜索 -->
+    <div class="search" draggable="true" id="bilibili-search">
+        <form action="https://search.bilibili.com/all" class="search_form" target="_blank">
+            <div>
+                <a href="#bilibili-search">
+                    <img alt="必应搜索" class="icons" src="./images/bilibili_search.png">
+                </a>
+            </div>
+            <div class="forms">
+                <label class="base_word">关键词：</label>
+                <label>
+                    <input class="text" name="keyword" placeholder="哔哩哔哩视频搜索关键词" required size="30"
+                           type="text">
+                </label>
+                <input class="submit" type="submit" value="去哔哩哔哩搜索">
+            </div>
+        </form>
+    </div>
+
+
+    <!-- 搜狗搜索 -->
+    <div class="search" draggable="true" id="sougou-search">
+        <form action="https://www.sogou.com/web" class="search_form" target="_blank">
+            <div>
+                <a href="#sougou-search">
+                    <img alt="搜狗搜索" class="icons" src="./images/sougou_search.png">
+                </a>
+            </div>
+            <div class="forms">
+                <label class="base_word">关键词：</label>
+                <label>
+                    <input class="text" name="query" placeholder="搜狗搜索关键词" required size="30" type="text">
+                </label>
+                <input class="submit" type="submit" value="去搜狗搜索">
+            </div>
+        </form>
+    </div>
+</div>
+<div class="visible">
+    <label class="is-visible">是否可见</label>
+    <form class="visible-checkbox">
+        <div>
+            <label for="baidu-search-checkbox"></label>
+            <input checked class="checkbox" id="baidu-search-checkbox" type="checkbox">
+            <a href="#baidu-search">百度搜索</a>
+        </div>
+
+        <div>
+            <label for="baidu-wiki-checkbox"></label>
+            <input checked class="checkbox" id="baidu-wiki-checkbox" type="checkbox">
+            <a href="#baidu-wiki">百度百科</a>
+        </div>
+
+        <div>
+            <label for="bing-search-checkbox"></label>
+            <input checked class="checkbox" id="bing-search-checkbox" type="checkbox">
+            <a href="#bing-search">必应搜索</a>
+        </div>
+
+        <div>
+            <label for="bilibili-search-checkbox"></label>
+            <input checked class="checkbox" id="bilibili-search-checkbox" type="checkbox">
+            <a href="#bilibili-search">哔哩哔哩搜索</a>
+        </div>
+
+        <div>
+            <label for="sougou-search-checkbox"></label>
+            <input checked class="checkbox" id="sougou-search-checkbox" type="checkbox">
+            <a href="#sougou-search">搜狗搜索</a>
+        </div>
+    </form>
+</div>
+</body>
+
+</html>

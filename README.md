@@ -1,15 +1,20 @@
-# search
->baidu search
->>Use Baidu search to search quickly
+## search
 
->baidu baike
->>Use Baidu Encyclopedia to quickly access terms
+- 百度搜索
+  - **操作容易**
+  - ~~广告较多~~
+- 百度百科
+  - **搜索准确**
+  - ~~有广告~~
 
->bing search
->>Use Bing Search to improve search accuracy
-
->bilibili search
->>Use Bilibili to find a lot of videos
-
->sougou search
->>Use Sougou search to search quickly
+- 必应搜索
+  - ***搜索非常准确***
+  - **覆盖内容广泛**
+  - ~~有广告~~
+- 哔哩哔哩搜索
+  - ***内容高技术力***
+  - 广告较少
+- 搜狗搜索
+  - **排版整齐**
+  - **界面舒服**
+  - ~~搜索不准确~~

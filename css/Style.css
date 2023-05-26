@@ -1,0 +1,86 @@
+body{
+    height: 2000px;
+    min-width: 577px;
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: 2.5s;
+    transition-timing-function: linear;
+}
+
+.visible {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.visible-checkbox{
+    margin-top: 20px;
+}
+
+div[class="visible"] a{
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.visible form div{
+    display: inline-block;
+    position: relative;
+}
+
+.checkbox{
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+}
+
+.search:last-child{
+    border-bottom: 2px solid;
+}
+
+.search:first-child{
+    border-top: 2px solid;
+}
+
+.search {
+    /*所有搜索容器*/
+    text-align: center;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    padding: 15px;
+    line-height: 40px;
+    transition-property: padding, line-height;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+}
+
+.search:hover{
+    text-align: center;
+    padding: 30px;
+    line-height: 40px;
+    min-width: 412px;
+    box-sizing: content-box;
+}
+
+.submit {
+    /*所有提交按钮*/
+    cursor: pointer;
+}
+
+
+
+.icons{
+    text-align: center;
+    margin-bottom: 20px;
+    height: 50px;
+    transition-property: margin-bottom, height;
+    transition-duration: 250ms;
+}
+
+.icons:hover{
+    margin-bottom: 0;
+    height: 70px
+}
